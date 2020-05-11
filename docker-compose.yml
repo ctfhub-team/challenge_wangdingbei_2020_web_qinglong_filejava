@@ -2,8 +2,8 @@ version: "3"
 services:
   tomcat:
     build: .
-    image: ctftraining/wdb_2020_web_qinglong_filejava
+    image: ctfhub/challenge_wangdingbei_2020_web_qinglong_filejava
     ports:
       - "8083:80"
     environment:
-      - FLAG=ctftraining{wdb_2020_web_qinglong_filejava}
+      - FLAG=ctfhub{challenge_wangdingbei_2020_web_qinglong_filejava}
